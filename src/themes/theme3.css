@@ -1,0 +1,40 @@
+body {
+  background-color: #17062A;
+}
+
+.top {
+  color: #FFF03E;
+}
+
+.display {
+  background-color: #1E0836;
+}
+
+.button {
+  background-color: #04DCCF;
+}
+
+.grid-container {
+  padding: 15px;
+  background-color: #1E0836;
+}
+
+.grid-item {
+  color: #FFF03E;
+  background-color: #331B4B;
+  box-shadow: 0 5px 0px hsl(285, 91%, 52%)
+  ;
+}
+
+.del,
+.reset {
+  color: white;
+  background-color: #57077B;
+  box-shadow: 0 5px 0px hsl(290, 70%, 36%);
+}
+
+.equal {
+  color: white;
+  background-color: #00DECF;
+  box-shadow: 0 5px 0px hsl(177, 92%, 70%);
+}

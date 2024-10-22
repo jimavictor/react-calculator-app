@@ -1,0 +1,35 @@
+body {
+  background-color: #3b4664;
+}
+
+.display {
+  background-color: #181f32;
+}
+
+.button {
+  background-color: #cf412e;
+}
+
+.grid-item {
+  color: #444a5d;
+  background-color: #eae3db;
+  box-shadow: 0 5px 0px rgba(234, 227, 219, 0.5);
+}
+
+.del,
+.reset {
+  color: white;
+  background-color: #647299;
+  box-shadow: 0 5px 0px hsl(224, 28%, 35%);
+}
+
+.equal {
+  color: white;
+  background-color: #d13f30;
+  box-shadow: 0 5px 0px hsl(6, 70%, 34%);
+}
+
+.grid-container {
+  padding: 15px;
+  background-color: #252d44;
+}
