@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const link = document.createElement("link");
 link.rel = "stylesheet";
@@ -7,9 +7,24 @@ document.head.appendChild(link);
 function Switch({ setTheme }) {
   const [selected, setSelected] = useState("one"); // State to track the selected button
 
+  useEffect(() => {
+    if (localStorage.getItem("selectedTheme") !== null) {
+      setTheme(localStorage.getItem("selectedTheme"));
+      setSelected(localStorage.getItem("selectedTheme"));
+    } else {
+      setTheme(
+        window.matchMedia("(prefers-color-scheme: light)").matches ? "two" : "three"
+      );
+      setSelected(
+        window.matchMedia("(prefers-color-scheme: light)").matches ? "two" : "three"
+      );
+    }
+  }, []);
+
   const handleChange = (event) => {
     setSelected(event.target.id); // Update state with the id of the selected button
-    setTheme(event.target.id);
+    localStorage.setItem("selectedTheme", event.target.id);
+    setTheme(localStorage.getItem("selectedTheme"));
   };
 
   return (
