@@ -13,7 +13,6 @@ const initialState = {
 function calculatorReducer(state, { type, payload }){
   switch (type) {
     case 'APPEND_DIGIT':
-      console.log((state.screenValue + payload))
       // Append the digit unless the screenValue is just "0"
       return {
         ...state,
