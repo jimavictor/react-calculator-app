@@ -12,6 +12,12 @@ body {
 }
 
 .display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px;
+  font-size: 23px;
+  font-weight: bolder;
   min-height: 60px;
   width: 100%;
   margin-bottom: 20px;
@@ -42,7 +48,7 @@ body {
   border-radius: 5px; /* Rounded corners */
   padding: 12px;
   font-weight: bolder;
-
+  border: transparent;
 }
 
 .del,
@@ -77,7 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #252D44;
+  background-color: #252d44;
   border-radius: 50px;
 }
 

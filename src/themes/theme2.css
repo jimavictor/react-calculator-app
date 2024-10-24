@@ -8,6 +8,7 @@ body {
 
 .display {
   background-color: #eeeeee;
+  color: black;
 }
 
 .button {
@@ -22,8 +23,7 @@ body {
 .grid-item {
   color: #35352d;
   background-color: #e5e4e0;
-  box-shadow: 0 5px 0px #A59E94;
-  
+  box-shadow: 0 5px 0px #a59e94;
 }
 
 .del,

@@ -1,40 +1,40 @@
 body {
-  background-color: #17062A;
+  background-color: #17062a;
 }
 
 .top {
-  color: #FFF03E;
+  color: #fff03e;
 }
 
 .display {
-  background-color: #1E0836;
+  color: #fff03e;
+  background-color: #1e0836;
 }
 
 .button {
-  background-color: #04DCCF;
+  background-color: #04dccf;
 }
 
 .grid-container {
   padding: 15px;
-  background-color: #1E0836;
+  background-color: #1e0836;
 }
 
 .grid-item {
-  color: #FFF03E;
-  background-color: #331B4B;
-  box-shadow: 0 5px 0px hsl(285, 91%, 52%)
-  ;
+  color: #fff03e;
+  background-color: #331b4b;
+  box-shadow: 0 5px 0px hsl(285, 91%, 52%);
 }
 
 .del,
 .reset {
   color: white;
-  background-color: #57077B;
+  background-color: #57077b;
   box-shadow: 0 5px 0px hsl(290, 70%, 36%);
 }
 
 .equal {
   color: white;
-  background-color: #00DECF;
+  background-color: #00decf;
   box-shadow: 0 5px 0px hsl(177, 92%, 70%);
 }
